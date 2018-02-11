@@ -21,7 +21,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <segue destination="USQ-St-doZ" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" customModule="LetsChat" customModuleProvider="target" id="Odu-2V-SOT"/>
+                        <segue destination="USQ-St-doZ" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="Odu-2V-SOT"/>
                         <segue destination="TuK-gl-csL" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="X0P-C7-Zx6"/>
                     </connections>
                 </viewController>
@@ -60,15 +60,15 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="smackBurger"/>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LetsChat" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0d-kE-bcT">
-                                        <rect key="frame" x="146" y="45" width="83" height="23"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LetsChat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0d-kE-bcT">
+                                        <rect key="frame" x="139" y="45" width="135" height="23"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                         <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="highlightedColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.95090418779999997" green="0.43070445509999999" blue="0.1416369633" alpha="0.85999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -80,7 +80,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="nVN-bT-jrF"/>
                     </view>
-                    <navigationItem key="navigationItem" id="fOe-Fy-Sfo"/>
                     <connections>
                         <outlet property="menuBtn" destination="xOV-1i-pF0" id="zDf-Su-brh"/>
                     </connections>
