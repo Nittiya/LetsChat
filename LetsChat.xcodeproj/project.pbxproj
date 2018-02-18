@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		0A134705E6A30A9E3E5D1A02 /* Pods_LetsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6ECF31DB6C5D8747CB70C5C /* Pods_LetsChat.framework */; };
 		9A73B2802029770500C48355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73B27F2029770500C48355 /* AppDelegate.swift */; };
-		9A73B2852029770500C48355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A73B2832029770500C48355 /* Main.storyboard */; };
 		9A73B2872029770500C48355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A73B2862029770500C48355 /* Assets.xcassets */; };
 		9A73B28A2029770500C48355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A73B2882029770500C48355 /* LaunchScreen.storyboard */; };
 		9A73B298202978BD00C48355 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73B296202978BC00C48355 /* SWRevealViewController.m */; };
 		9A73B29A20297C5500C48355 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73B29920297C5500C48355 /* ChatVC.swift */; };
 		9A73B29C20297C7A00C48355 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A73B29B20297C7A00C48355 /* ChannelVC.swift */; };
+		9A89771B2030F9AF000D7EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8977192030F9AF000D7EB0 /* Main.storyboard */; };
+		9A89771D2030FE03000D7EB0 /* gradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A89771C2030FE02000D7EB0 /* gradientView.swift */; };
+		9A89771F20310497000D7EB0 /* gradientVeiw2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A89771E20310497000D7EB0 /* gradientVeiw2.swift */; };
+		9A978353203A250200D679CA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A978352203A250200D679CA /* LoginVC.swift */; };
+		9A978355203A253600D679CA /* CreateaccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A978354203A253600D679CA /* CreateaccountVC.swift */; };
+		9A978358203A303F00D679CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A978357203A303F00D679CA /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39AE821A16E3B3EB2DC2BC0D /* Pods-LetsChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat.release.xcconfig"; sourceTree = "<group>"; };
 		9A73B27C2029770500C48355 /* LetsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A73B27F2029770500C48355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A73B2842029770500C48355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A73B2862029770500C48355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A73B2892029770500C48355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A73B28B2029770500C48355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +34,12 @@
 		9A73B297202978BC00C48355 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		9A73B29920297C5500C48355 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		9A73B29B20297C7A00C48355 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		9A89771A2030F9AF000D7EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A89771C2030FE02000D7EB0 /* gradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientView.swift; sourceTree = "<group>"; };
+		9A89771E20310497000D7EB0 /* gradientVeiw2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientVeiw2.swift; sourceTree = "<group>"; };
+		9A978352203A250200D679CA /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9A978354203A253600D679CA /* CreateaccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateaccountVC.swift; sourceTree = "<group>"; };
+		9A978357203A303F00D679CA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A816D22890BB5F4024390B05 /* Pods-LetsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LetsChat/Pods-LetsChat.debug.xcconfig"; sourceTree = "<group>"; };
 		D6ECF31DB6C5D8747CB70C5C /* Pods_LetsChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,12 +85,13 @@
 		9A73B27E2029770500C48355 /* LetsChat */ = {
 			isa = PBXGroup;
 			children = (
+				9A978356203A2FD800D679CA /* Utilities */,
 				9A73B2942029788300C48355 /* Model */,
 				9A73B2932029787700C48355 /* View */,
 				9A73B2922029785C00C48355 /* Controller */,
 				9A73B2912029784500C48355 /* Supporting Files */,
 				9A73B27F2029770500C48355 /* AppDelegate.swift */,
-				9A73B2832029770500C48355 /* Main.storyboard */,
+				9A8977192030F9AF000D7EB0 /* Main.storyboard */,
 				9A73B2862029770500C48355 /* Assets.xcassets */,
 				9A73B2882029770500C48355 /* LaunchScreen.storyboard */,
 				9A73B28B2029770500C48355 /* Info.plist */,
@@ -103,6 +114,8 @@
 			children = (
 				9A73B29920297C5500C48355 /* ChatVC.swift */,
 				9A73B29B20297C7A00C48355 /* ChannelVC.swift */,
+				9A978352203A250200D679CA /* LoginVC.swift */,
+				9A978354203A253600D679CA /* CreateaccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,6 +123,8 @@
 		9A73B2932029787700C48355 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9A89771C2030FE02000D7EB0 /* gradientView.swift */,
+				9A89771E20310497000D7EB0 /* gradientVeiw2.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,6 +134,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9A978356203A2FD800D679CA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9A978357203A303F00D679CA /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		A74553E71443477C117D58AB /* Pods */ = {
@@ -193,9 +216,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A89771B2030F9AF000D7EB0 /* Main.storyboard in Resources */,
 				9A73B28A2029770500C48355 /* LaunchScreen.storyboard in Resources */,
 				9A73B2872029770500C48355 /* Assets.xcassets in Resources */,
-				9A73B2852029770500C48355 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,28 +291,33 @@
 			files = (
 				9A73B29C20297C7A00C48355 /* ChannelVC.swift in Sources */,
 				9A73B29A20297C5500C48355 /* ChatVC.swift in Sources */,
+				9A978355203A253600D679CA /* CreateaccountVC.swift in Sources */,
+				9A89771D2030FE03000D7EB0 /* gradientView.swift in Sources */,
+				9A89771F20310497000D7EB0 /* gradientVeiw2.swift in Sources */,
+				9A978353203A250200D679CA /* LoginVC.swift in Sources */,
 				9A73B2802029770500C48355 /* AppDelegate.swift in Sources */,
 				9A73B298202978BD00C48355 /* SWRevealViewController.m in Sources */,
+				9A978358203A303F00D679CA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9A73B2832029770500C48355 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A73B2842029770500C48355 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A73B2882029770500C48355 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9A73B2892029770500C48355 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9A8977192030F9AF000D7EB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A89771A2030F9AF000D7EB0 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

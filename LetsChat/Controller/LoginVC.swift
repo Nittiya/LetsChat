@@ -1,26 +1,26 @@
 //
-//  ChannelVC.swift
+//  LoginVC.swift
 //  LetsChat
 //
-//  Created by Nittiya Nuanploy on 2/6/18.
+//  Created by Nittiya Nuanploy on 2/18/18.
 //  Copyright © 2018 Nittiya Nuanploy. All rights reserved.
 //
 
 import UIKit
 
-class ChannelVC: UIViewController {
+class LoginVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
+
         // Do any additional setup after loading the view.
     }
 
-//    override func didReceiveMemoryWarning() {
-//        super.didReceiveMemoryWarning()
-//        // Dispose of any resources that can be recreated.
-//    }
-//
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
 
     /*
     // MARK: - Navigation
